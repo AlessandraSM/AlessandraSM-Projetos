@@ -39,6 +39,7 @@ const ChamaDetail = () => {
   return (
     <DivGeral>
       <ContainerHeader>
+
         <H1>Chama</H1>
       </ContainerHeader>
 
@@ -48,6 +49,7 @@ const ChamaDetail = () => {
       </ContainerHistorico>
 
       <DivButton>
+        
         <Button
           onClick={() => voltar(navigate)}
           color="primary"
