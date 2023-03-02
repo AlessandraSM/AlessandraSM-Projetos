@@ -15,17 +15,19 @@ export const ContainerInfoUser = styled.div`
   padding: 0 10px;
   
 `;
-export const H1 = styled.h1`
+
+export const Logo = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 15px;
-  font-weight: 700;
-  font-family: Roboto;
+  justify-content: flex-start;
+  width: 90vw;
+  padding-left: 30px;
+`
+export const H1 = styled.h1`
   font-size: 48px;
   line-height: 56px;
   color: whitesmoke;
 `;
+
 export const ContainerMapInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -37,8 +39,8 @@ export const ContainerMapInfo = styled.div`
 
 export const Img = styled.img`
   margin-top: 20px;
-  border-radius: 20%;
-  box-shadow: 2px 5px 2px 3px #2cd4d9;
+  border-radius: 5%;
+  border: #190172;
 `;
 
 export const DivButton = styled.div`
@@ -46,21 +48,21 @@ export const DivButton = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  background-color:  #dcdcdc;
+  background-color:  #190182;
+  padding: 20px;
   
 `;
 
 export const Form = styled.form`
   border: solid #190172;
   left: 20%;
+  margin-bottom: 15px;
 `;
 
 export const P = styled.p`
-  font-size: 18px;
-  background-color: #2cd4d9;
-  border-radius: 18px;
+  color: #190172;
+  font-size: 24px;
   padding: 5px;
-  box-shadow: 2px 2px 2px 2px Black;
   margin-top: 30px;
-
+  
  `;

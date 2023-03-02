@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import {ContainerInfoUser,ContainerMapInfo,DivButton,DivGeral,Form,H1,Img, P} from "./styled";
+import {ContainerInfoUser,ContainerMapInfo,DivButton,DivGeral,Form,H1,Img, P, Logo} from "./styled";
 import Button from "@mui/material/Button";
 import { TextField } from "@mui/material";
 import CardUser from "../../components/Card/CardUser";
@@ -27,7 +27,10 @@ const Chama = () => {
   }
 return (
     <DivGeral>
-      <ContainerInfoUser>
+       <ContainerInfoUser>
+         <Logo>
+           <H1>Chama</H1>
+         </Logo>
         <div>
           <Img
             height="150px"
@@ -35,7 +38,7 @@ return (
             alt="logo GitHub"
           />
         </div>
-        <H1>Chama</H1>
+      
 
         <Form onSubmit={handleSubmit}>
 

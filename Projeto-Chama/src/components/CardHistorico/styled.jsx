@@ -14,7 +14,7 @@ export const CardHistoricoStyled = styled.div`
   text-align: center;
   font-size: 18px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color:  #5333ed;
 `;
 

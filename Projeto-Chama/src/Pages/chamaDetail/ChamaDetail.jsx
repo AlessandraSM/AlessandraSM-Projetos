@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import CardHistorico from "../../components/CardHistorico/CarHistorico";
 import GlobalStateContext from "../../context/GlobalStateContext";
 import { voltar } from "../../routes/Coordinator";
+import { P } from "../chama/styled";
 import {
   ContainerHeader,
   ContainerHistorico,
@@ -39,11 +40,11 @@ const ChamaDetail = () => {
   return (
     <DivGeral>
       <ContainerHeader>
-        <Header>Chama</Header>
+        <H1>Chama</H1>
       </ContainerHeader>
 
       <ContainerHistorico>
-        <H1>Lista de Histórico</H1>
+        <P>Lista de Histórico</P>
         {historicos}
       </ContainerHistorico>
 
@@ -52,6 +53,8 @@ const ChamaDetail = () => {
           onClick={() => voltar(navigate)}
           color="primary"
           variant="contained"
+          
+          
         >
           Voltar à página inicial
         </Button>
