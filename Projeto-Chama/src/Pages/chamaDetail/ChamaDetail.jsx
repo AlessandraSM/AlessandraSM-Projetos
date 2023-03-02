@@ -18,12 +18,11 @@ const ChamaDetail = () => {
   const { states, setters, requests } = useContext(GlobalStateContext);
   const navigate = useNavigate();
 
-
-  const pesquisaDnv = (name) => {//Nessa função 
-    setters.setInput(name)
-    requests.getUserSingle(name)
-    voltar(navigate)
-    
+  const pesquisaDnv = (name) => {
+    //Nessa função
+    setters.setInput(name);
+    requests.getUserSingle(name);
+    voltar(navigate);
   };
 
   const historicos = states.historico?.map((hist) => {
@@ -53,8 +52,6 @@ const ChamaDetail = () => {
           onClick={() => voltar(navigate)}
           color="primary"
           variant="contained"
-          
-          
         >
           Voltar à página inicial
         </Button>

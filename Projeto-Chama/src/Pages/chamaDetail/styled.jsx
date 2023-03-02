@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const DivGeral = styled.div`
-  width: auto;
-  height: 100px;
  `;
 
 export const ContainerHeader = styled.div`
@@ -21,12 +19,11 @@ export const Header = styled.p`
 `;
 
 export const ContainerHistorico = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #dcdcdc;
 `;
 
 export const H1 = styled.h1`
@@ -39,19 +36,15 @@ export const H1 = styled.h1`
   line-height: 56px;
  `;
 
-export const DivButton = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #190172;
-  height: 80px;
-  padding-top: 30px;
-`;
+export const DivButton = styled.footer`
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color:  #190182;
+  padding: 20px;
+  `;
 
-export const NewButton = styled.button`
-  margin-top: 20px;
-`
 
 
 
